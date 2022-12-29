@@ -11,6 +11,7 @@ export default function Users({ dataUsers }: UsersProps) {
 
   return (
     <Layout pageTitle='Users Page'>
+      <h1>Users Page</h1>
       {dataUsers.map((user) => (
         <div
           key={user.id}
